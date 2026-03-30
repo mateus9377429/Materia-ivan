@@ -7,3 +7,4 @@ if media > 3:
         print('em Exame!!!')
 else:
     print('Reprovado!!!')
+    
