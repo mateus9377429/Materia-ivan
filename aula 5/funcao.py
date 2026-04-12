@@ -2,6 +2,8 @@ def nomeFuncao (parametro1, parametro2):
     #corpo da função
     return "saida da função"
 
+def lerInteiro():
+    return int(input())
 
 def somar (num1, num2):
     soma = num1 + num2
@@ -13,10 +15,5 @@ def imprimir(texto):
 def pularLinha():
     print('\n') 
 
-numero1 = float(input('Digite um numero: '))
-numero2 = float(input('Digite outro numero: '))
-
-r = somar(numero1, numero2)
-
-pularLinha()
-imprimir(f'O valor da soma de {numero1} + {numero2} é {r}')
+def dividir (n1, n2):
+    return n1 / n2
